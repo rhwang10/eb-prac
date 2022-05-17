@@ -13,7 +13,7 @@ artifacts:
     - eb-prac.war
     - .ebextensions/**/*
 eb_codebuild_settings:
-  CodeBuildServiceRole: codebuild-eb-prac-service-role
+  CodeBuildServiceRole: CodeBuildServiceRole
   ComputeType: BUILD_GENERAL1_SMALL
   Image: aws/codebuild/standard:4.0
   Timeout: 60
