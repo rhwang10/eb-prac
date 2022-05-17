@@ -7,8 +7,8 @@ phases:
   post_build:
     commands:
       - mvn package
-      - mv target/ROOT.war ROOT.war
+      - mv target/eb-prac.war eb-prac.war
 artifacts:
   files:
-    - ROOT.war
+    - eb-prac.war
     - .ebextensions/**/*
