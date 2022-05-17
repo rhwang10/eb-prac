@@ -7,10 +7,10 @@ phases:
   post_build:
     commands:
       - mvn package
-      - mv target/eb-prac.war eb-prac.war
+      - mv target/ROOT.war ROOT.war
 artifacts:
   files:
-    - eb-prac.war
+    - ROOT.war
     - .ebextensions/**/*
 eb_codebuild_settings:
   CodeBuildServiceRole: CodeBuildServiceRole
